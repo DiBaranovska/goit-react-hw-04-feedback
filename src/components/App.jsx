@@ -5,7 +5,7 @@ import FeedbackOptions from './feedbackOptions/feedbackOptions';
 import Section from './sectionTittle/sectionTittle';
 import Notification from './notification/notification';
 
-export default function App() {
+const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
@@ -73,3 +73,6 @@ export default function App() {
     </div>
   );
 }
+
+
+export default App;
